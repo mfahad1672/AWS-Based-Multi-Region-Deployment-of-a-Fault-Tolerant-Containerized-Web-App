@@ -1,0 +1,166 @@
+body {
+  background-color: #1b222c;
+  color: #eee;
+}
+.App {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  padding: 3rem;
+  margin: 3rem 0;
+}
+
+/* Number */
+
+.actual-number {
+  padding: 3rem;
+  background-color: #eee;
+  max-width: 10%;
+  margin: 0 auto;
+  font-size: 4.8rem;
+  color: #000;
+}
+
+.between {
+  font-size: 2rem;
+  margin: 3rem 0;
+  padding: 0 2rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+/* Input Number */
+
+.number-input input {
+  color: #eee;
+  background: none;
+  border: 4px solid #eee;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 3.6rem;
+  font-family: inherit;
+  max-width: 20rem;
+}
+
+.number-input input:focus {
+  border: 4px solid #eee;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #eee;
+  font-family: inherit;
+  padding: 1.5rem 1rem;
+}
+
+/* Scoring */
+
+.scoring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: auto;
+}
+
+.scoring h2 {
+  margin-bottom: 3rem;
+}
+
+.scoring p {
+  font-size: 1.4rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1100px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .actual-number {
+    padding: 2.4rem;
+    max-width: 12%;
+    font-size: 4.2rem;
+  }
+
+  .between {
+    font-size: 1.8rem;
+  }
+
+  main {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 950px) {
+  main {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 680px) {
+  .between {
+    font-size: 1.6rem;
+  }
+  .actual-number {
+    padding: 2rem;
+    max-width: 14%;
+    font-size: 4rem;
+  }
+
+  main {
+    max-width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .between {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+  }
+  .actual-number {
+    max-width: 16%;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+  .actual-number {
+    max-width: 18%;
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .actual-number {
+    max-width: 20%;
+  }
+}

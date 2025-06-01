@@ -28,7 +28,7 @@ Before starting, ensure you have the following:
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/mfahad1672/AWS-Based-Multi-Region-Deployment-of-a-Fault-Tolerant-Containerized-Web-App/architecture-design.png)
+![Architecture Diagram]([https://github.com/mfahad1672/AWS-Based-Multi-Region-Deployment-of-a-Fault-Tolerant-Containerized-Web-App/architecture-design.png])
 
 ## Deployment Steps
 

@@ -28,7 +28,7 @@ Before starting, ensure you have the following:
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/waleed-sabir/guess-it/blob/dev/architecture-design.png)
+![Architecture Diagram]
 
 ## Deployment Steps
 
